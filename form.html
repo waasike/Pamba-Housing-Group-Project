@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find A Home</title>
+    <!-- -favicon-->
+  <link rel="shortcut icon" href="pamba.png" type="image/svg+xml">
+    
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+    <!--- custom css link-->
+    <link rel="stylesheet" href="./css/form.css">
+
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- <div id="Home"> -->
+        <!-- <nav id="navbar1">
+            <ul id="menu">
+                <li>
+                    <img src="images/pambalogo1.png" alt="Pamba Housing logo" id="logo">
+                </li>
+                <li><a href="index.html#home" class="navlinks active">Home</a></li>
+                <li><a href="index.html#about" class="navlinks">About</a></li>
+                <li><a href="index.html#houses" class="navlinks">Houses</a></li>
+                <li><a href="forms.html" class="navlinks">Find A Home</a></li>
+                <li><a href="index.html#team" class="navlinks">Team</a></li>
+                <li><a href="index.html#contact" class="navlinks">Contact Us</a></li>
+            </ul>
+        </nav> -->
+        <header class="header" data-header>
+            <div class="container">
+        
+              <nav class="navbar3" data-navbar>
+                <ul class="navbar3-list">
+        
+                  <li>
+                    <a href="index.html#home" class="navbar-link" data-nav-link>Home</a>
+                  </li>
+        
+                  <li>
+                    <a href="index.html#about" class="navbar-link" data-nav-link>About</a>
+                  </li>
+        
+                  <li>
+                    <a href="index.html#house" class="navbar-link" data-nav-link>Houses</a>
+                  </li>
+        
+                  <li>
+                    <a href="form.html" class="navbar-link" data-nav-link>Find A Home</a>
+                  </li>
+        
+                  <li>
+                    <a href="index.html#team" class="navbar-link" data-nav-link>Team</a>
+                  </li>
+        
+                  <li>
+                    <a href="index.html#contact" class="navbar-link" data-nav-link>Contact Us</a>
+                  </li>
+        
+                </ul>
+              </nav>
+        
+              <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+              </button>
+        
+            </div>
+          </header>
+    <!-- </div> -->
+    <div class="container-fluid">
+        <div class="home2">
+            <form id="house">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <div class="jumbotron text-black">
+                           
+                            <h3 id="title">FIND YOUR HOME</h3>
+                            <p>Hello, We are here to ensure that you have a smooth time when finding your new home</p>
+
+                            <div class="form-group">
+                                <label for="location"><i class="fa fa-map-marker" aria-hidden="true" id="icons1"> &nbsp;
+                                </i>LOCATION</label>
+                                <select class="form-control" id="location" required>
+                                <option value="SELECT">SELECT </option>
+                                <option>KILIMANI</option>>
+                                <option>NGONG</option>
+                                <option>JACARANDA</option>
+                                <option>MOMBASA ROAD</option>
+                                <option>WESTLANDS</option>
+                                <option>THINDIGUA,KIAMBU ROAD</option>
+                            </select>
+                            </div>
+
+                            <label for="house-size"><span class='fa-stack'><i class='far fa-square fa-stack-2x'
+                                id="icons1"></i><i class='fas fa-home fa-spin fa-stack-1x'
+                                id="icons1"></i></span> &nbsp;</i>HOUSE SIZE</label>
+                            <select class="form-control" id="house-size" required>
+                            <option value="SELECT">SELECT</option>
+                            <option value="BUNGALOW">BUNGALOW</option>
+                            <option value="ONE-BEDROOM">ONE BEDROOM</option>
+                            <option value="TWO-BEDROOM">TWO BEDROOM</option>
+                            <option value="THREE-BEDROOM">THREE-BEDROOM</option>
+                            <option value="BEDSITTER">BEDSITTER</option>
+                        </select>
+                            <div>
+                                <button type="submit" class="btn btn-success" id="select">SELECT</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+
+            </form>
+
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="jumbotron text-black" id="house">
+                        <h3>FOR BOOKINGS WITH LANDLORDS</h3>
+                        <form action="https://gmail.us2.list-manage.com/subscribe?u=aec39503ac1341d4413de3fe5&id=a655b6de3b" method="POST">
+                            <div class="form-group">
+                                <label for="email"><i class="fas fa-envelope"></i>Email address:</label>
+                                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" required>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-success" id="select">SUBMIT</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+
+        <div id="contact">
+
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-md-4" id="copy">
+                        <h3>Contact us</h3>
+                        <p> Email: pambahousing@gmail.com</p>
+                        <p> Phone number : +254 712 345 678</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Locate us</h3>
+                        <P>Nairobi, Kenya</P>
+                        <p> Copyright 2020 Pamba Housing. <br> All Rights Resrved</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="foot">
+                            <h3>Connect with us</h3>
+                            <div id="icon">
+                            <div id="icon">
+                                <div class="icon">
+                                    <a href=" "><img src="socials/instagram1.png" alt=" "></a>
+                                </div>
+                                <br>
+                                <div class="icon">
+                                    <a href=" "><img src="socials/twitter1.png" alt=" "></a>
+                                </div>
+                                <br>
+                                <div class="icon">
+                                    <a href=" "><img src="socials/facebook1.png" alt=" "></a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="jquery-3.5.1.js "></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>
