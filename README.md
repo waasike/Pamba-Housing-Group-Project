@@ -1,7 +1,7 @@
 ## PAMBA HOUSING TEAM PROJECT.
 
 ### PREVIEW OF THE PROJECT: 
-[PAMBA HOUSING WEBSITE LIVE PREVIEW](https://waasike.github.io/hackathon_portfolio/)
+[PAMBA HOUSING WEBSITE LIVE PREVIEW](https://waasike.github.io/Pamba-Housing-Group-Project/)
 ![LANDING PAGE](website_preview/landing_page.png)
 ![FOOTER PAGE](website_preview/footer.png)
 
@@ -28,6 +28,7 @@ Coding Environment; <b> Visual Studio Code </b> <br>
 Database System; <b> MySql </b> <br>
 Designing platform; <b> Figma </b> <br>
 Hosting platform; <b> GitHub </b> <br>
+[PAMBA HOUSING WEBSITE LIVE PREVIEW](https://waasike.github.io/Pamba-Housing-Group-Project/)
 
 ### Project plan
 1. Designing the project on Figma
