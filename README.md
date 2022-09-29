@@ -1,9 +1,13 @@
 ## PAMBA HOUSING TEAM PROJECT.
 
+[PAMBA HOUSING WEBSITE (VIDEO) PREVIEW](https://drive.google.com/file/d/1II5-4UONsF2ib5K5cTsYNZEk1yp5y7jD/view?usp=sharing) <BR>
+
 ### N/B<br>
 • You need to have installed Xampp<br>
 • Have running servers i.e Apache and Mysql Database<br>
-• Refer to pamba.sql file for mysql database queries
+• Refer to pamba.sql file for mysql database queries<br>
+
+[PAMBA HOUSING WEBSITE LIVE PREVIEW](https://waasike.github.io/Pamba-Housing-Group-Project/)
 
 ### PREVIEW OF THE PROJECT: 
 <img src="website_preview/landing_page.png" width="430px">
