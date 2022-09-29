@@ -6,9 +6,10 @@
 • Refer to pamba.sql file for mysql database queries
 
 ### PREVIEW OF THE PROJECT: 
-[PAMBA HOUSING WEBSITE LIVE PREVIEW](https://waasike.github.io/Pamba-Housing-Group-Project/)
-![LANDING PAGE](website_preview/landing_page.png)
-![FOOTER PAGE](website_preview/footer.png)
+<img src="website_preview/landing_page.png" width="430px">
+<img src="website_preview/signup.png" width="430px">
+<img src="website_preview/login.png" width="430px">
+<img src="website_preview/find.png" width="430px">
 
 ### 1. Choose a project - Project should have an economical or commercial benefit.
 This website helps establish our image by letting the audience know who we are and what we represent. The website provides reliable information to the consumers and helps users cut on costs.  
