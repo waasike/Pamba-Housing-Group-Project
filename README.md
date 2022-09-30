@@ -15,6 +15,8 @@
 <img src="website_preview/login.png" width="430px">
 <img src="website_preview/find.png" width="430px">
 
+[LIVE PREVIEW OF THE FIND A HOME FORM](https://waasike.github.io/form/)
+
 ### 1. Choose a project - Project should have an economical or commercial benefit.
 This website helps establish our image by letting the audience know who we are and what we represent. The website provides reliable information to the consumers and helps users cut on costs.  
 
